@@ -1,5 +1,5 @@
-import { add } from "../script.js";
+import { sub } from "../script.js";
 
 test("soustraction simple", () => {
-  expect(sub(2, 3)).toBe(5);
+  expect(sub(2, 3)).toBe(-1);
 });
