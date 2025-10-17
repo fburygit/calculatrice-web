@@ -27,14 +27,13 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   console.log("Calculatrice initialisée !");
+
 });
 
 
-import { div } from "../script.js";
 
-export function div(a, b) {
-  return a / b;
-
+export function add(a, b) {
+  return a + b;
 
 }
 

@@ -1,8 +1,8 @@
+import { add } from "../script.js";
 
-import { div } from "../script.js";
-
-test("division simple", () => {
-  expect(div(6, 3)).toBe(2);
+test("addition simple", () => {
+  expect(add(2, 3)).toBe(5);
 
 
 });
+
