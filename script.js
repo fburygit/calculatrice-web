@@ -33,4 +33,5 @@ import { div } from "../script.js";
 
 export function div(a, b) {
   return a / b;
+
 }
