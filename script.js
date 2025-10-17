@@ -30,7 +30,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
+
 export function add(a, b) {
   return a + b;
+
 }
 
