@@ -10,4 +10,9 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   console.log("Calculatrice initialisée !");
+
 });
+
+export function add(a, b) {
+  return a + b;
+}
