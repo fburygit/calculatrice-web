@@ -1,6 +1,8 @@
 
-import { multiply} from "../script.js";
+import { div } from "../script.js";
 
-test("multiplication simple", () => {
-  expect(multiply(2, 3)).toBe(6);
+test("division simple", () => {
+  expect(div(6, 3)).toBe(2);
+
+
 });

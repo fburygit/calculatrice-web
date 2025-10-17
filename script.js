@@ -29,7 +29,12 @@ document.addEventListener("DOMContentLoaded", () => {
   console.log("Calculatrice initialisée !");
 });
 
-export function multiply(a, b) {
-  return a*b;
+
+import { div } from "../script.js";
+
+export function div(a, b) {
+  return a / b;
+
+
 }
 
