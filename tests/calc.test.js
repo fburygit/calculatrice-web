@@ -1,5 +1,6 @@
-import { sub } from "../script.js";
 
-test("soustraction simple", () => {
-  expect(sub(2, 3)).toBe(-1);
+import { multiply} from "../script.js";
+
+test("multiplication simple", () => {
+  expect(multiply(2, 3)).toBe(6);
 });
